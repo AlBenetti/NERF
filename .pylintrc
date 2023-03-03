@@ -1,0 +1,9 @@
+[TYPECHECK]
+
+# List of members which are set dynamically and missed by Pylint inference
+# system, and so shouldn't trigger E1101 when accessed.
+generated-members=numpy.*, torch.*
+
+# List of allowed names for the first part of a multipart name
+# (e.g. _id in _id_1)
+good-names=i,j,k,ex,Run,_,id,x,y,z
