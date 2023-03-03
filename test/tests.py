@@ -8,5 +8,3 @@ def run_tests():
 def check_array_equal(a: np.ndarray, b: np.ndarray) -> bool:
     """Check if two arrays are equal."""
     return np.array_equal(a, b)
-
-
